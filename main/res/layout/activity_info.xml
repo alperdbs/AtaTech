@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgg"
+    tools:context=".InfoActivity">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="335dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="250dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:includeFontPadding="true"
+        android:shadowColor="#000000"
+        android:text="This application was written by Alper Tuna Demirbaş for       Atatürk University"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFD700"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="335dp"
+        android:layout_height="88dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:includeFontPadding="true"
+        android:shadowColor="#000000"
+        android:text="How to reach developer for offers and comments: alpertunademirbas@gmail.com"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFD700"
+        android:textIsSelectable="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <Button
+        android:id="@+id/button90"
+        android:layout_width="355dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="548dp"
+        android:background="@drawable/btn_bg"
+        android:onClick="gohomeclicked"
+        android:text="return to PROFILE"
+        android:textSize="17sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

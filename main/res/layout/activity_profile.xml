@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:background="@drawable/bgg">
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:text="Welcome"
+        android:textColor="#FFD700"
+        android:textSize="29sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="#######################"
+        android:textColor="#FFD700"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="253dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/avatarr" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="131dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ssssss" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="296dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/sssas" />
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/btn_bg"
+        android:onClick="signOutClicked"
+        android:text="sıgn out"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/btn_bg"
+        android:onClick="appInfoClicked"
+        android:text="App Info"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="430dp"
+        android:background="@drawable/btn_bg"
+        android:onClick="goToUsersClicked"
+        android:text="go to users screen"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

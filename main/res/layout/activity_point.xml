@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgg"
+    tools:context=".PointActivity">
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="369dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="112dp"
+        android:gravity="center"
+        android:shadowColor="#000000"
+        android:shadowRadius="50"
+        android:text="fdsgdfgsdfgsdfgdfg"
+        android:textAlignment="center"
+        android:textColor="#FFD700"
+        android:textSize="31sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="236dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="25dp"
+        android:numStars="5"
+        android:progressBackgroundTint="@color/black"
+        android:progressTint="#FFD700"
+        android:stepSize=".5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <Button
+        android:id="@+id/button54"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_bg"
+        android:text="accept"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="315dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="48dp"
+        android:gravity="center"
+        android:shadowColor="#000000"
+        android:shadowRadius="50"
+        android:text="You can only rate once!"
+        android:textColor="#606060"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="350dp"
+        android:layout_height="92dp"
+        android:gravity="center"
+        android:shadowColor="#000000"
+        android:shadowRadius="50"
+        android:textColor="#FFD700"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
